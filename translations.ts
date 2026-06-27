@@ -11,9 +11,8 @@ export const translations = {
     },
     hero: {
       role: 'Técnica en Programación',
-      title1: 'CELINA',
-      title2: 'J.',
-      title3: 'PEREYRA',
+      title1: 'CELINA J.',
+      title2: 'PEREYRA',
       desc: 'Creativa Líder y Fundadora en folkode. Apasionada por el desarrollo de software y el diseño de interfaces minimalistas.',
       btnProjects: 'Proyectos',
       btnHistory: 'Mi Historia',
@@ -97,10 +96,10 @@ export const translations = {
       categories: ['Backend', 'Frontend', 'Gestión & MK', 'Software Dev']
     },
     footer: {
-      tag: '¿Tienes una idea?',
-      cta: 'CREEMOS',
+      tag: '¿Tenés una idea?',
+      cta: 'VAMOS A CREAR',
       available: 'Disponible para proyectos',
-      location: 'Basada en Argentina, alcance Global.',
+      location: 'Hecho en Argentina.',
       channels: 'Canales Digitales',
       copy: 'FOLKODE FOUNDER'
     }
@@ -116,9 +115,8 @@ export const translations = {
     },
     hero: {
       role: 'Técnica em Programação',
-      title1: 'CELINA',
-      title2: 'J.',
-      title3: 'PEREYRA',
+      title1: 'CELINA J.',
+      title2: 'PEREYRA',
       desc: 'Criativa Líder e Fundadora na folkode. Apaixonada pelo desenvolvimento de software e design de interfaces minimalistas.',
       btnProjects: 'Projetos',
       btnHistory: 'Minha História',
@@ -205,7 +203,7 @@ export const translations = {
       tag: 'Tem uma ideia?',
       cta: 'CRIEMOS',
       available: 'Disponível para projetos',
-      location: 'Sediada na Argentina, alcance Global.',
+      location: 'Feita na Argentina, alcance Global.',
       channels: 'Canais Digitais',
       copy: 'FOLKODE FOUNDER'
     }
