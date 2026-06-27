@@ -1,0 +1,30 @@
+/* Palette and utility classes for language-specific accents */
+/* Spanish (dark mode) earthy palette */
+body[data-lang="es"] {
+  --accent: 121,128,77; /* #79804D */
+  --accent-2: 62,72,42; /* #3E482A */
+  --accent-3: 105,87,59; /* #69573B */
+  --accent-4: 45,41,32; /* #2D2920 */
+}
+
+/* Helper utilities (use alongside existing Tailwind classes) */
+.text-accent { color: rgb(var(--accent)) !important; }
+.text-accent-2 { color: rgb(var(--accent-2)) !important; }
+.text-accent-3 { color: rgb(var(--accent-3)) !important; }
+.bg-accent { background-color: rgb(var(--accent)) !important; }
+.bg-accent-5 { background-color: rgba(var(--accent), 0.05) !important; }
+.bg-accent-2 { background-color: rgb(var(--accent-2)) !important; }
+.bg-accent-3 { background-color: rgb(var(--accent-3)) !important; }
+.border-accent { border-color: rgb(var(--accent)) !important; }
+.bg-gradient-accent { background: linear-gradient(to bottom, transparent, rgba(var(--accent), 0.1), transparent) !important; }
+.border-accent-30 { border-color: rgba(var(--accent), 0.3) !important; }
+.decoration-accent { text-decoration-color: rgb(var(--accent)) !important; }
+.hover\:bg-accent:hover { background-color: rgb(var(--accent)) !important; }
+.hover\:text-accent:hover { color: rgb(var(--accent)) !important; }
+
+/* Small responsive helpers */
+.hide-on-sm { display: none; }
+@media (min-width: 768px) { .hide-on-sm { display: block; } }
+
+/* Ensure form of scrollbars matches dark theme */
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.06); }

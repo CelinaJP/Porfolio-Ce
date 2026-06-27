@@ -55,9 +55,9 @@ const Navbar: React.FC<NavbarProps> = ({ lang, onToggleLang }) => {
           
           <button 
             onClick={onToggleLang}
-            className="flex items-center gap-2 px-3 py-1.5 border border-cool rounded-full text-[10px] font-bold uppercase tracking-widest hover:border-teal-500 transition-colors"
+            className="flex items-center gap-2 px-3 py-1.5 border border-cool rounded-full text-[10px] font-bold uppercase tracking-widest hover:border-accent transition-colors"
           >
-            <Globe size={12} className="text-teal-500" />
+            <Globe size={12} className="text-accent" />
             <span className={lang === 'es' ? 'text-white' : 'text-slate-500'}>ES</span>
             <span className="text-slate-700">/</span>
             <span className={lang === 'pt' ? 'text-white' : 'text-slate-500'}>PT</span>
@@ -65,7 +65,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang, onToggleLang }) => {
 
           <a 
             href="#contact" 
-            className="px-6 py-2 bg-white text-black font-bold rounded-full text-[10px] uppercase tracking-widest hover:bg-teal-500 hover:text-white transition-all"
+            className="px-6 py-2 bg-white text-black font-bold rounded-full text-[10px] uppercase tracking-widest hover:bg-accent hover:text-white transition-all"
           >
             {t.cta}
           </a>
@@ -73,7 +73,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang, onToggleLang }) => {
 
         {/* Mobile Toggle */}
         <div className="flex items-center gap-4 md:hidden">
-           <button onClick={onToggleLang} className="text-[10px] font-bold uppercase tracking-widest text-teal-500 border border-teal-500/20 px-2 py-1 rounded">
+           <button onClick={onToggleLang} className="text-[10px] font-bold uppercase tracking-widest text-accent border border-accent-30 px-2 py-1 rounded">
             {lang.toUpperCase()}
           </button>
           <button 

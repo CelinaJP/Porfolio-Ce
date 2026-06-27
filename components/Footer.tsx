@@ -14,8 +14,8 @@ const Footer: React.FC<Props> = ({ lang }) => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="mb-24 flex flex-col md:flex-row justify-between items-start md:items-end gap-10">
           <div>
-            <span className="text-teal-500 font-bold tracking-[0.4em] uppercase text-[10px] mb-6 block">{t.tag}</span>
-            <h2 className="font-heading text-6xl md:text-8xl lg:text-[10rem] uppercase leading-none hover:text-teal-500 transition-all duration-700 cursor-pointer">
+            <span className="text-accent font-bold tracking-[0.4em] uppercase text-[10px] mb-6 block">{t.tag}</span>
+            <h2 className="font-heading text-6xl md:text-8xl lg:text-[10rem] uppercase leading-none hover:text-accent transition-all duration-700 cursor-pointer">
               {t.cta}<span className="text-slate-900">.</span>
             </h2>
           </div>
@@ -30,17 +30,17 @@ const Footer: React.FC<Props> = ({ lang }) => {
             <div>
               <p className="text-[10px] uppercase font-bold tracking-[0.5em] text-slate-600 mb-8">{t.channels}</p>
               <div className="flex flex-col gap-6">
-                <a href="#" className="flex items-center justify-between text-3xl font-heading group uppercase hover:text-teal-500 transition-colors">
+                <a href="#" className="flex items-center justify-between text-3xl font-heading group uppercase hover:text-accent transition-colors">
                   LinkedIn <Linkedin className="group-hover:translate-x-1 transition-transform opacity-30 group-hover:opacity-100" size={32} />
                 </a>
-                <a href="#" className="flex items-center justify-between text-3xl font-heading group uppercase hover:text-teal-500 transition-colors">
+                <a href="#" className="flex items-center justify-between text-3xl font-heading group uppercase hover:text-accent transition-colors">
                   GitHub <Github className="group-hover:translate-x-1 transition-transform opacity-30 group-hover:opacity-100" size={32} />
                 </a>
                 <a 
                   href="https://www.instagram.com/cancherea/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="flex items-center justify-between text-3xl font-heading group uppercase hover:text-pink-500 transition-colors"
+                  className="flex items-center justify-between text-3xl font-heading group uppercase transition-colors hover:text-pink-500"
                 >
                   Instagram <Instagram className="group-hover:translate-x-1 transition-transform opacity-30 group-hover:opacity-100 group-hover:text-pink-500" size={32} />
                 </a>
@@ -57,9 +57,9 @@ const Footer: React.FC<Props> = ({ lang }) => {
               <p className="text-slate-400 mb-10 text-lg leading-relaxed">
                 {lang === 'es' ? 'Técnica en Programación enfocada en liderar proyectos digitales, uniendo el desarrollo, el diseño y la estrategia comercial.' : 'Técnica em Programação focada em liderar projetos digitais, unindo o desenvolvimento, o design e a estratégia comercial.'}
               </p>
-              <a href="mailto:celinapereyra1@gmail.com" className="inline-flex items-center gap-6 text-xl md:text-2xl font-bold text-teal-400 hover:text-white transition-all group">
+              <a href="mailto:celinapereyra1@gmail.com" className="inline-flex items-center gap-6 text-xl md:text-2xl font-bold text-accent-2 hover:text-white transition-all group">
                 celinapereyra1@gmail.com 
-                <div className="w-14 h-14 rounded-2xl border border-teal-500/50 flex items-center justify-center group-hover:bg-teal-500 group-hover:text-black group-hover:scale-110 transition-all">
+                <div className="w-14 h-14 rounded-2xl border border-accent-30 flex items-center justify-center group-hover:bg-accent group-hover:text-black group-hover:scale-110 transition-all">
                   <ArrowUpRight size={24} />
                 </div>
               </a>
@@ -71,11 +71,11 @@ const Footer: React.FC<Props> = ({ lang }) => {
           <div className="flex flex-col md:flex-row gap-8 items-center">
              <p>© 2024 CELINA J. PEREYRA</p>
              <div className="hidden md:block w-1 h-1 bg-slate-800 rounded-full"></div>
-             <a 
+               <a 
                href="https://www.folkode.com.ar/" 
                target="_blank" 
                rel="noopener noreferrer" 
-               className="text-slate-800 hover:text-teal-500 transition-colors"
+               className="text-slate-800 hover:text-accent transition-colors"
              >
                {t.copy}
              </a>

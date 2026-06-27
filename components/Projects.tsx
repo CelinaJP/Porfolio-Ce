@@ -43,8 +43,8 @@ const Projects: React.FC<Props> = ({ lang }) => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
           <div>
-            <span className="text-teal-500 font-bold tracking-widest uppercase text-xs">{t.tag}</span>
-            <h2 className="font-heading text-6xl md:text-8xl mt-4 uppercase">{t.title1} <br/> <span className="text-slate-700">{t.title2}</span></h2>
+            <span className="text-accent font-bold tracking-widest uppercase text-xs">{t.tag}</span>
+            <h2 className="font-heading text-3xl sm:text-4xl md:text-6xl lg:text-7xl mt-4 uppercase">{t.title1} <br/> <span className="text-slate-700">{t.title2}</span></h2>
           </div>
           {t.desc && (
             <p className="text-slate-400 max-w-sm mb-4">
@@ -60,7 +60,7 @@ const Projects: React.FC<Props> = ({ lang }) => {
               href={project.link} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="group block cursor-pointer bg-white/[0.01] hover:bg-white/[0.03] p-6 rounded-3xl border border-cool hover:border-teal-500/30 transition-all duration-500 flex flex-col justify-between"
+              className="group block cursor-pointer bg-white/[0.01] hover:bg-white/[0.03] p-6 rounded-3xl border border-cool hover:border-accent-30 transition-all duration-500 flex flex-col justify-between"
             >
               <div>
                 <div className="overflow-hidden rounded-2xl mb-6 aspect-[4/3] bg-cool-dark border border-cool relative">
@@ -70,21 +70,21 @@ const Projects: React.FC<Props> = ({ lang }) => {
                     className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
                   />
                   <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-black/60 backdrop-blur-md border border-white/10 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <ExternalLink size={18} className="text-teal-400" />
+                    <ExternalLink size={18} className="text-accent-2" />
                   </div>
                 </div>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map(tag => (
-                    <span key={tag} className="text-[10px] font-bold uppercase tracking-widest px-2.5 py-1 bg-teal-500/10 border border-teal-500/20 text-teal-300 rounded">
+                    <span key={tag} className="text-[10px] font-bold uppercase tracking-widest px-2.5 py-1 bg-accent-5 border border-accent-30 text-accent-2 rounded">
                       {tag}
                     </span>
                   ))}
                 </div>
                 <div className="flex items-start justify-between gap-2 mb-2">
-                  <h3 className="font-heading text-2xl md:text-3xl group-hover:text-teal-400 transition-colors uppercase leading-tight">
+                  <h3 className="font-heading text-2xl md:text-3xl group-hover:text-accent transition-colors uppercase leading-tight">
                     {project.title}
                   </h3>
-                  <ExternalLink size={20} className="text-slate-600 group-hover:text-teal-400 shrink-0 transition-colors mt-1" />
+                  <ExternalLink size={20} className="text-slate-600 group-hover:text-accent shrink-0 transition-colors mt-1" />
                 </div>
                 <p className="text-slate-400 leading-relaxed text-sm font-light mt-3">
                   {project.description}
