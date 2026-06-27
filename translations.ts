@@ -97,7 +97,7 @@ export const translations = {
     },
     footer: {
       tag: '¿Tenés una idea?',
-      cta: 'VAMOS A CREAR',
+      cta: 'Vamos a crear',
       available: 'Disponible para proyectos',
       location: 'Hecho en Argentina.',
       channels: 'Canales Digitales',
