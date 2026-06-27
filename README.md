@@ -1,11 +1,24 @@
-<div align="center">
+# Mi Porfolio
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Soy Celina Pereyra **Coordinadora de Proyectos Digitales y Desarrolladora**, enfocada en liderar el ciclo completo de un producto: desde la estrategia comercial y el diseño de experiencia, hasta la ejecución técnica en código. Mi objetivo es transformar ideas de negocio en soluciones reales, rentables y escalables.
 
-  <h1>Built with AI Studio</h2>
+---
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+En este espacio comparto algunos de los proyectos en los que vengo trabajando: desde plataformas de e-commerce y sistemas de gestión a medida, hasta soluciones de diseño interactivo y estrategias para potenciar tus ventas y canales digitales.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+Busco siempre que cada línea de código y cada propuesta visual sumen valor real al negocio, conectando la tecnología con los resultados comerciales.
 
-</div>
+---
+
+### 🚀 Mi Enfoque: Coordinación & Visión Comercial
+
+* **Coordinación de Proyectos (End-to-End):** Gestión integral del ciclo de producto, uniendo las necesidades del cliente con el equipo de diseño y desarrollo para garantizar entregas estratégicas de punta a punta.
+* **Estrategia Comercial & Canales:** Optimización de la conversión digital, modelado de soluciones orientadas a ventas y alineación de producto con presencia digital efectiva.
+* **Diseño UI/UX Estratégico:** Creación de flujos y prototipos interactivos en Figma centrados en la usabilidad y la conversión comercial.
+* **Desarrollo Tecnológico:** Capacidad técnica para entender, estructurar y desarrollar la arquitectura de las plataformas que el negocio necesita.
+
+#### 🛠️ Herramientas & Tecnologías
+
+* **Gestión & Estrategia:** Coordinación de Producto, Estrategia Digital, Figma (UI/UX).
+* **Desarrollo Web:** React, JavaScript, TypeScript, Node.js, Prisma, SQL / PostgreSQL.
+* **Productividad & Control:** Git, GitHub.
