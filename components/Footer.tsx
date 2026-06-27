@@ -30,10 +30,10 @@ const Footer: React.FC<Props> = ({ lang }) => {
             <div>
               <p className="text-[10px] uppercase font-bold tracking-[0.5em] text-slate-600 mb-8">{t.channels}</p>
               <div className="flex flex-col gap-6">
-                <a href="#" className="flex items-center justify-between text-3xl font-heading group uppercase hover:text-accent transition-colors">
+                <a href="https://www.linkedin.com/in/celina-pereyra/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between text-3xl font-heading group uppercase hover:text-accent transition-colors">
                   LinkedIn <Linkedin className="group-hover:translate-x-1 transition-transform opacity-30 group-hover:opacity-100" size={32} />
                 </a>
-                <a href="#" className="flex items-center justify-between text-3xl font-heading group uppercase hover:text-accent transition-colors">
+                <a href="https://github.com/CelinaJP" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between text-3xl font-heading group uppercase hover:text-accent transition-colors">
                   GitHub <Github className="group-hover:translate-x-1 transition-transform opacity-30 group-hover:opacity-100" size={32} />
                 </a>
                 <a 
