@@ -22,9 +22,9 @@ export const translations = {
     experience: {
       tag: 'Trayectoria & Perfil',
       title: 'Visión Resolutiva e Integral',
-      sub: 'Coordinadora y Fundadora de Folkode. Impulsora de entornos colaborativos donde la identidad, la tecnología y la cultura convergen para crear soluciones de alto valor.',
-      desc1: 'Como líder integral de Folkode, gestiono los proyectos y coordino el desarrollo técnico. Diseño propuestas comerciales personalizadas y lidero la estrategia digital y moderación de contenidos, asegurando que la identidad de la marca se mantenga coherente, segura y atractiva en todos sus canales.',
-      desc2: 'Me caracterizo por ser una persona razonable y resolutiva, proactiva y colaborativa. Abordo desafíos complejos bajo un prisma lógico y racional, garantizando soluciones efectivas y escalables tanto en la arquitectura de software como en la gestión de comunidades digitales.',
+      sub: 'Coordinadora y Fundadora de Folkode. ',
+      desc1: 'Como líder integral de Folkode, gestiono los proyectos y coordino el desarrollo técnico. Diseño propuestas comerciales personalizadas y planifico la estrategia digital y moderación de contenidos, asegurando que la identidad de la marca se mantenga coherente, segura y atractiva en todos los canales.',
+      desc2: 'Me caracterizo por ser una persona razonable y resolutiva, proactiva y colaborativa. Abordo desafíos complejos bajo un prisma lógico, garantizando soluciones efectivas y escalables tanto en la arquitectura de software como en la gestión de comunidades digitales.',
       cards: [
         {
           num: '01',
@@ -56,7 +56,8 @@ export const translations = {
       timeline: [
         { year: '2023', title: 'Curso de Excel', institution: 'Coderhouse', desc: 'Dominio de herramientas de análisis y gestión de datos.' },
         { year: '2024', title: 'Técnica en Programación', institution: 'UNaB', desc: 'Formación de grado en lógica, algoritmos y desarrollo de sistemas.' },
-        { year: '2025', title: 'Especialización Front-End & Python', institution: 'Agencia de Habilidades', desc: 'Profundización en tecnologías modernas y desarrollo backend.' }
+        { year: '2025', title: 'Especialización Front-End & Python', institution: 'Agencia de Habilidades', desc: 'Profundización en tecnologías modernas y desarrollo backend.' },
+        { year: '2026', title: 'Community Manager', institution: 'Mujeres Emprendedoras', desc: 'Especialización en gestión y desarrollo de comunidades digitales.' }
       ]
     },
     projects: {
@@ -98,9 +99,9 @@ export const translations = {
     footer: {
       tag: '¿Tenés una idea?',
       cta: 'Vamos a crear',
-      available: 'Disponible para proyectos',
+      available: 'DISPONIBLE PARA PROYECTOS',
       location: 'Hecho en Argentina.',
-      channels: 'Canales Digitales',
+      channels: 'CANALES DIGITALES',
       copy: 'FOLKODE FOUNDER'
     }
   },
