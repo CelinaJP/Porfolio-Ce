@@ -21,7 +21,7 @@ export const translations = {
     },
     experience: {
       tag: 'Trayectoria & Perfil',
-      title: 'Arquitectura Resolutiva e Integral',
+      title: 'Visión Resolutiva e Integral',
       sub: 'Coordinadora y Fundadora de Folkode. Impulsora de entornos colaborativos donde la identidad, la tecnología y la cultura convergen para crear soluciones de alto valor.',
       desc1: 'Como líder integral de Folkode, gestiono los proyectos y coordino el desarrollo técnico. Diseño propuestas comerciales personalizadas y lidero la estrategia digital y moderación de contenidos, asegurando que la identidad de la marca se mantenga coherente, segura y atractiva en todos sus canales.',
       desc2: 'Me caracterizo por ser una persona razonable y resolutiva, proactiva y colaborativa. Abordo desafíos complejos bajo un prisma lógico y racional, garantizando soluciones efectivas y escalables tanto en la arquitectura de software como en la gestión de comunidades digitales.',
