@@ -1,30 +1,118 @@
 /* Palette and utility classes for language-specific accents */
-/* Spanish (dark mode) earthy palette */
+
+/* Spanish (dark mode) cold/warm palette */
 body[data-lang="es"] {
-  --accent: 121,128,77; /* #79804D */
-  --accent-2: 62,72,42; /* #3E482A */
-  --accent-3: 105,87,59; /* #69573B */
-  --accent-4: 45,41,32; /* #2D2920 */
+  --accent: 60,90,90; /* Gunmetal #3C5A5A */
+  --accent-2: 158,155,99; /* Dark Khaki #9E9B63 */
+  --accent-3: 147,55,16; /* Rust Brown #933710 */
+  --accent-4: 217,148,80; /* Dull Orange #D99450 */
+  --accent-green: 102,134,86; /* Added green */
+  --surface: 15,17,21;
+  --text-primary: 248,250,252;
+}
+
+/* Portuguese (light mode) warm palette */
+body[data-lang="pt"] {
+  --accent: 111,65,40; /* Cedar Bark #6F4128 */
+  --accent-2: 175,181,135; /* Golden Fennel #AFB587 */
+  --accent-3: 74,75,48; /* Mosswood #4A4B30 */
+  --accent-4: 240,234,216; /* Almond Cream #F0EAD8 */
+  --accent-yellow: 245,194,70; /* Added yellow */
+  --surface: 245,240,232;
+  --text-primary: 20,22,18;
+  --text-muted: 89,79,64;
+  background-color: rgb(240,234,216);
+  color: rgb(var(--text-primary));
 }
 
 /* Helper utilities (use alongside existing Tailwind classes) */
 .text-accent { color: rgb(var(--accent)) !important; }
 .text-accent-2 { color: rgb(var(--accent-2)) !important; }
 .text-accent-3 { color: rgb(var(--accent-3)) !important; }
+.text-accent-green { color: rgb(var(--accent-green)) !important; }
+.text-accent-yellow { color: rgb(var(--accent-yellow)) !important; }
 .bg-accent { background-color: rgb(var(--accent)) !important; }
 .bg-accent-5 { background-color: rgba(var(--accent), 0.05) !important; }
 .bg-accent-2 { background-color: rgb(var(--accent-2)) !important; }
 .bg-accent-3 { background-color: rgb(var(--accent-3)) !important; }
+.bg-accent-green { background-color: rgb(var(--accent-green)) !important; }
+.bg-accent-yellow { background-color: rgb(var(--accent-yellow)) !important; }
 .border-accent { border-color: rgb(var(--accent)) !important; }
+.border-accent-green { border-color: rgb(var(--accent-green)) !important; }
+.border-accent-yellow { border-color: rgb(var(--accent-yellow)) !important; }
 .bg-gradient-accent { background: linear-gradient(to bottom, transparent, rgba(var(--accent), 0.1), transparent) !important; }
 .border-accent-30 { border-color: rgba(var(--accent), 0.3) !important; }
 .decoration-accent { text-decoration-color: rgb(var(--accent)) !important; }
 .hover\:bg-accent:hover { background-color: rgb(var(--accent)) !important; }
 .hover\:text-accent:hover { color: rgb(var(--accent)) !important; }
+.hover\:bg-accent-green:hover { background-color: rgb(var(--accent-green)) !important; }
+.hover\:bg-accent-yellow:hover { background-color: rgb(var(--accent-yellow)) !important; }
 
 /* Small responsive helpers */
 .hide-on-sm { display: none; }
 @media (min-width: 768px) { .hide-on-sm { display: block; } }
+
+/* Portuguese light theme overrides */
+body[data-lang="pt"] .text-white {
+  color: rgb(var(--text-primary)) !important;
+}
+
+body[data-lang="pt"] .text-slate-400,
+body[data-lang="pt"] .text-slate-500 {
+  color: rgb(var(--text-muted)) !important;
+}
+
+body[data-lang="pt"] .text-slate-600 {
+  color: rgb(100,78,54) !important;
+}
+
+body[data-lang="pt"] .text-slate-800 {
+  color: rgb(45,33,24) !important;
+}
+
+body[data-lang="pt"] .bg-slate-950\/30 {
+  background-color: rgba(240,234,216,0.35) !important;
+}
+
+body[data-lang="pt"] .bg-cool-dark {
+  background-color: rgb(245,240,232) !important;
+}
+
+body[data-lang="pt"] .bg-\[\#0a0a0c\] {
+  background-color: rgb(245,240,232) !important;
+}
+
+body[data-lang="pt"] .bg-\[\#0a0a0c\]\/90 {
+  background-color: rgba(245,240,232,0.9) !important;
+}
+
+body[data-lang="pt"] .bg-\[\#0a0a0c\]\/60 {
+  background-color: rgba(245,240,232,0.6) !important;
+}
+
+body[data-lang="pt"] .bg-\[\#0a0a0c\]\/40 {
+  background-color: rgba(245,240,232,0.65) !important;
+}
+
+body[data-lang="pt"] .bg-white\/\[0\.01\] {
+  background-color: rgba(255,255,255,0.88) !important;
+}
+
+body[data-lang="pt"] .bg-white\/\[0\.03\] {
+  background-color: rgba(255,255,255,0.93) !important;
+}
+
+body[data-lang="pt"] .hover\:bg-white\/5:hover {
+  background-color: rgba(255,255,255,0.92) !important;
+}
+
+body[data-lang="pt"] .border-cool {
+  border-color: rgba(111,65,40,0.15) !important;
+}
+
+body[data-lang="pt"] .border-accent-30 {
+  border-color: rgba(var(--accent), 0.25) !important;
+}
 
 /* Ensure form of scrollbars matches dark theme */
 ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.06); }

@@ -40,7 +40,9 @@ const ExperienceSection: React.FC<Props> = ({ lang }) => {
           </div>
           <div>
             <span className="text-accent font-bold tracking-[0.3em] uppercase text-xs">{t.tag}</span>
-            <h2 className="font-heading text-5xl md:text-7xl mt-6 mb-12 uppercase leading-[0.9]">Arquitectura <br/><span className="text-slate-600">Resolutiva</span> <br/><span className="text-white">e Integral</span></h2>
+            <h2 className="font-heading text-5xl md:text-7xl mt-6 mb-12 uppercase leading-[0.9]">
+              {t.title1} <br/><span className="text-slate-600">{t.title2}</span> <br/><span className="text-white">{t.title3}</span>
+            </h2>
             
             <div className="space-y-10 text-xl text-slate-400 leading-relaxed font-light mb-20">
               <p className="text-white font-medium text-2xl leading-snug">
