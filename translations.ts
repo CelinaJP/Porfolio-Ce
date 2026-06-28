@@ -23,7 +23,7 @@ export const translations = {
       tag: 'Trayectoria & Perfil',
       title: 'Visión Resolutiva e Integral',
       sub: 'Coordinadora y Fundadora de Folkode. ',
-      desc1: 'Como líder integral de Folkode, gestiono los proyectos y coordino el desarrollo técnico. Diseño propuestas comerciales personalizadas y planifico la estrategia digital y moderación de contenidos, asegurando que la identidad de la marca se mantenga coherente, segura y atractiva en todos los canales.',
+      desc1: 'Como líder integral de Folkode, gestiono los proyectos y el desarrollo técnico. Diseño propuestas comerciales personalizadas y planifico la estrategia digital y moderación de contenidos, asegurando que la identidad de la marca se mantenga coherente, segura y atractiva en todos los canales.',
       desc2: 'Me caracterizo por ser una persona razonable y resolutiva, proactiva y colaborativa. Abordo desafíos complejos bajo un prisma lógico, garantizando soluciones efectivas y escalables tanto en la arquitectura de software como en la gestión de comunidades digitales.',
       cards: [
         {
@@ -126,7 +126,7 @@ export const translations = {
     },
     experience: {
       tag: 'Trajetória & Perfil',
-      title: 'Arquitetura Resolutiva e Integral',
+      title: 'Perspectiva Resolutiva e Integral',
       sub: 'Coordenadora e Fundadora da Folkode. Impulsora de ambientes colaborativos onde a identidade, a tecnologia e a cultura convergem para criar soluções de alto valor.',
       desc1: 'Como líder integral da Folkode, gerencio os projetos e coordeno o desenvolvimento técnico. Projeto propostas comerciais personalizadas e lidero a estratégia digital e a moderação de conteúdos, garantindo que a identidade da marca permaneça coerente, segura e atraente em todos os seus canais.',
       desc2: 'Caracterizo-me por ser uma persona razoável e resolutiva, proativa e colaborativa. Abordo desafios complexos sob um prisma lógico e racional, garantindo soluções eficazes e escaláveis tanto na arquitetura de software quanto na gestão de comunidades digitais.',
