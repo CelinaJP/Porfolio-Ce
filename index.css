@@ -18,10 +18,11 @@ body[data-lang="pt"] {
   --accent-3: 74,75,48; /* Mosswood #4A4B30 */
   --accent-4: 240,234,216; /* Almond Cream #F0EAD8 */
   --accent-yellow: 245,194,70; /* Added yellow */
-  --surface: 245,240,232;
-  --text-primary: 20,22,18;
-  --text-muted: 89,79,64;
-  background-color: rgb(240,234,216);
+  --surface: 240,234,216;
+  --surface-alt: 245,240,232;
+  --text-primary: 35,24,20;
+  --text-muted: 108,90,69;
+  background-color: rgb(var(--surface));
   color: rgb(var(--text-primary));
 }
 
@@ -41,7 +42,7 @@ body[data-lang="pt"] {
 .border-accent-green { border-color: rgb(var(--accent-green)) !important; }
 .border-accent-yellow { border-color: rgb(var(--accent-yellow)) !important; }
 .bg-gradient-accent { background: linear-gradient(to bottom, transparent, rgba(var(--accent), 0.1), transparent) !important; }
-.border-accent-30 { border-color: rgba(var(--accent), 0.3) !important; }
+.border-accent-30 { border-color: rgba(var(--accent), 0.25) !important; }
 .decoration-accent { text-decoration-color: rgb(var(--accent)) !important; }
 .hover\:bg-accent:hover { background-color: rgb(var(--accent)) !important; }
 .hover\:text-accent:hover { color: rgb(var(--accent)) !important; }
@@ -63,11 +64,11 @@ body[data-lang="pt"] .text-slate-500 {
 }
 
 body[data-lang="pt"] .text-slate-600 {
-  color: rgb(100,78,54) !important;
+  color: rgb(144, 108, 65) !important;
 }
 
 body[data-lang="pt"] .text-slate-800 {
-  color: rgb(45,33,24) !important;
+  color: rgb(90, 61, 38) !important;
 }
 
 body[data-lang="pt"] .bg-slate-950\/30 {
@@ -75,11 +76,11 @@ body[data-lang="pt"] .bg-slate-950\/30 {
 }
 
 body[data-lang="pt"] .bg-cool-dark {
-  background-color: rgb(245,240,232) !important;
+  background-color: rgb(var(--surface-alt)) !important;
 }
 
 body[data-lang="pt"] .bg-\[\#0a0a0c\] {
-  background-color: rgb(245,240,232) !important;
+  background-color: rgb(var(--surface-alt)) !important;
 }
 
 body[data-lang="pt"] .bg-\[\#0a0a0c\]\/90 {
@@ -95,24 +96,24 @@ body[data-lang="pt"] .bg-\[\#0a0a0c\]\/40 {
 }
 
 body[data-lang="pt"] .bg-white\/\[0\.01\] {
-  background-color: rgba(255,255,255,0.88) !important;
-}
-
-body[data-lang="pt"] .bg-white\/\[0\.03\] {
-  background-color: rgba(255,255,255,0.93) !important;
-}
-
-body[data-lang="pt"] .hover\:bg-white\/5:hover {
   background-color: rgba(255,255,255,0.92) !important;
 }
 
+body[data-lang="pt"] .bg-white\/\[0\.03\] {
+  background-color: rgba(255,255,255,0.96) !important;
+}
+
+body[data-lang="pt"] .hover\:bg-white\/5:hover {
+  background-color: rgba(255,255,255,0.94) !important;
+}
+
 body[data-lang="pt"] .border-cool {
-  border-color: rgba(111,65,40,0.15) !important;
+  border-color: rgba(111,65,40,0.18) !important;
 }
 
 body[data-lang="pt"] .border-accent-30 {
   border-color: rgba(var(--accent), 0.25) !important;
 }
 
-/* Ensure form of scrollbars matches dark theme */
-::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.06); }
+/* Ensure form of scrollbars matches light warm theme */
+::-webkit-scrollbar-thumb { background: rgba(111,65,40,0.18); }

@@ -64,7 +64,9 @@ const Navbar: React.FC<NavbarProps> = ({ lang, onToggleLang }) => {
           </button>
 
           <a 
-            href="#contact" 
+            href="https://wa.me/1167906178" 
+            target="_blank" 
+            rel="noopener noreferrer" 
             className="px-6 py-2 bg-white text-black font-bold rounded-full text-[10px] uppercase tracking-widest hover:bg-accent hover:text-white transition-all"
           >
             {t.cta}
