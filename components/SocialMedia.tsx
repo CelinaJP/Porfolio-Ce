@@ -7,15 +7,15 @@ interface Props {
 
 const reels = [
   {
-    id: 'DUb3OykDigf',
+    id: '¿Qué es una issue?',
     url: 'https://www.instagram.com/reel/DUb3OykDigf/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
   },
   {
-    id: 'DVMTH4sjrXK',
+    id: 'allmart',
     url: 'https://www.instagram.com/reel/DVMTH4sjrXK/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
   },
   {
-    id: 'DUBXvDgjurs',
+    id: 'elarcagym',
     url: 'https://www.instagram.com/reel/DUBXvDgjurs/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
   }
 ];
