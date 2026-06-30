@@ -1,27 +1,29 @@
 /* Palette and utility classes for language-specific accents */
 
-/* Spanish (dark mode) cold/warm palette */
+/* Spanish (dark mode) palette */
 body[data-lang="es"] {
-  --accent: 60,90,90; /* Gunmetal #3C5A5A */
-  --accent-2: 158,155,99; /* Dark Khaki #9E9B63 */
-  --accent-3: 147,55,16; /* Rust Brown #933710 */
-  --accent-4: 217,148,80; /* Dull Orange #D99450 */
-  --accent-green: 102,134,86; /* Added green */
-  --surface: 15,17,21;
-  --text-primary: 248,250,252;
+  --accent: 74,127,167; /* #4A7FA7 */
+  --accent-2: 179,207,229; /* #B3CFE5 */
+  --accent-3: 26,61,99; /* #1A3D63 */
+  --accent-4: 246,250,253; /* #F6FAFD */
+  --accent-green: 179,207,229; /* #B3CFE5 */
+  --surface: 10,25,49; /* #0A1931 */
+  --text-primary: 246,250,253;
+  background-color: rgb(var(--surface));
+  color: rgb(var(--text-primary));
 }
 
-/* Portuguese (light mode) warm palette */
+/* Portuguese (light mode) palette */
 body[data-lang="pt"] {
-  --accent: 111,65,40; /* Cedar Bark #6F4128 */
-  --accent-2: 175,181,135; /* Golden Fennel #AFB587 */
-  --accent-3: 74,75,48; /* Mosswood #4A4B30 */
-  --accent-4: 240,234,216; /* Almond Cream #F0EAD8 */
-  --accent-yellow: 245,194,70; /* Added yellow */
-  --surface: 240,234,216;
-  --surface-alt: 245,240,232;
-  --text-primary: 35,24,20;
-  --text-muted: 108,90,69;
+  --accent: 191,70,34; /* #BF4622 Orange */
+  --accent-2: 212,168,129; /* #D4A881 Tan */
+  --accent-3: 42,75,56; /* #2A4B38 Green */
+  --accent-4: 85,21,20; /* #551514 Burgundy */
+  --accent-yellow: 191,70,34; /* #BF4622 Orange */
+  --surface: 255,255,255; /* White */
+  --surface-alt: 255,255,255; /* White */
+  --text-primary: 3,36,57; /* #032439 Navy */
+  --text-muted: 85,21,20; /* #551514 Burgundy */
   background-color: rgb(var(--surface));
   color: rgb(var(--text-primary));
 }
