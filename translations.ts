@@ -36,7 +36,7 @@ export const translations = {
       title2: 'Resolutiva',
       title3: 'e Integral',
       sub: 'Coordinadora y Fundadora de Folkode. ',
-      desc1: 'Como líder integral de Folkode, gestiono los proyectos y el desarrollo técnico. Diseño propuestas comerciales personalizadas y planifico la estrategia digital y moderación de contenidos, asegurando que la identidad de la marca se mantenga coherente, segura y atractiva en todos los canales.',
+      desc1: 'Como líder integral de Folkode, gestiono los proyectos y el desarrollo técnico. Diseño propuestas comerciales personalizadas, planifico la estrategia digital y moderación de contenidos, asegurando que la identidad de la marca se mantenga coherente, segura y atractiva en todos los canales.',
       desc2: 'Me caracterizo por ser una persona razonable y resolutiva, proactiva y colaborativa. Abordo desafíos complejos bajo un prisma lógico, garantizando soluciones efectivas y escalables tanto en la arquitectura de software como en la gestión de comunidades digitales.',
       cards: [],
       timelineTitle: 'Trayectoria Académica',
