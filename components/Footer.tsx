@@ -55,7 +55,7 @@ const Footer: React.FC<Props> = ({ lang }) => {
               </div>
               <h4 className="font-heading text-4xl mb-6 uppercase text-white leading-tight">Celina Jazmin <br/> Pereyra</h4>
               <p className="text-slate-400 mb-10 text-lg leading-relaxed">
-                {lang === 'es' ? 'Técnica en Programación enfocada en liderar proyectos digitales, uniendo el desarrollo, el diseño y la estrategia comercial.' : 'Técnica em Programação focada em liderar projetos digitais, unindo o desenvolvimento, o design e a estratégia comercial.'}
+                {lang === 'es' ? 'Liderando proyectos digitales, uniendo el desarrollo, el diseño y la estrategia comercial.' : 'Liderando projetos digitais, unindo o desenvolvimento, o design e a estratégia comercial.'}
               </p>
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=celinapereyra1@gmail.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-6 text-xl md:text-2xl font-bold text-accent-2 hover:text-white transition-all group">
                 celinapereyra1@gmail.com 
