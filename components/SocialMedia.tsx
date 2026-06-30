@@ -7,15 +7,18 @@ interface Props {
 
 const reels = [
   {
-    id: '¿Qué es una issue?',
+    title: '¿Qué es una issue?',
+    shortcode: 'DUb3OykDigf',
     url: 'https://www.instagram.com/reel/DUb3OykDigf/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
   },
   {
-    id: 'allmart',
+    title: 'allmart',
+    shortcode: 'DVMTH4sjrXK',
     url: 'https://www.instagram.com/reel/DVMTH4sjrXK/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
   },
   {
-    id: 'elarcagym',
+    title: 'elarcagym',
+    shortcode: 'DUBXvDgjurs',
     url: 'https://www.instagram.com/reel/DUBXvDgjurs/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
   }
 ];
@@ -45,19 +48,20 @@ const SocialMedia: React.FC<Props> = ({ lang }) => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
           {reels.map((reel) => (
-            <div key={reel.id} className="rounded-3xl overflow-hidden border border-cool bg-[#080f1f] shadow-2xl">
+            <div key={reel.shortcode} className="rounded-3xl overflow-hidden border border-cool bg-[#080f1f] shadow-2xl">
               <div className="aspect-video bg-black">
                 <iframe
-                  title={`Instagram Reel ${reel.id}`}
-                  src={`https://www.instagram.com/reel/${reel.id}/embed`}
+                  title={`Instagram Reel ${reel.title}`}
+                  src={`https://www.instagram.com/reel/${reel.shortcode}/embed`}
                   className="w-full h-full"
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
                   loading="lazy"
                   referrerPolicy="no-referrer"
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-white font-bold text-xl mb-3">{t.reelLabel} {reel.id}</h3>
+                <h3 className="text-white font-bold text-xl mb-3">{t.reelLabel} {reel.title}</h3>
                 <p className="text-slate-400 text-sm leading-relaxed">{t.openDescription}</p>
                 <a
                   href={reel.url}
