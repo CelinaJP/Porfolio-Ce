@@ -5,10 +5,19 @@ export const translations = {
       home: 'Inicio',
       exp: 'Trayectoria',
       projects: 'Proyectos',
+      social: 'Social Media',
       skills: 'Habilidades',
       contact: 'Contacto',
       cta: 'Hablemos',
       downloadCv: 'Descargar CV'
+    },
+    socialMedia: {
+      tag: 'Social Media',
+      title: 'Trabajos en Instagram',
+      description: 'Mira algunos de mis reels más destacados directamente desde Instagram.',
+      reelLabel: 'Reel',
+      openDescription: 'Haz clic para ver el proyecto en Instagram.',
+      openButton: 'Ver en Instagram'
     },
     hero: {
       role: 'Técnica en Programación',
@@ -29,47 +38,7 @@ export const translations = {
       sub: 'Coordinadora y Fundadora de Folkode. ',
       desc1: 'Como líder integral de Folkode, gestiono los proyectos y el desarrollo técnico. Diseño propuestas comerciales personalizadas y planifico la estrategia digital y moderación de contenidos, asegurando que la identidad de la marca se mantenga coherente, segura y atractiva en todos los canales.',
       desc2: 'Me caracterizo por ser una persona razonable y resolutiva, proactiva y colaborativa. Abordo desafíos complejos bajo un prisma lógico, garantizando soluciones efectivas y escalables tanto en la arquitectura de software como en la gestión de comunidades digitales.',
-      cards: [
-        {
-          num: '01',
-          title: 'Gestión 360°',
-          desc: 'Marketing digital, moderación de contenido y posicionamiento de marca.'
-        },
-        {
-          num: '02',
-          title: 'CM, CW & SMM',
-          items: [
-            'Redacción de guiones',
-            'Copywriter',
-            'Estrategia digital',
-            'Creadora de contenido'
-          ]
-        },
-        {
-          num: '03',
-          title: 'Gestión & MK',
-          items: [
-            'Gestión de clientes',
-            'Generación de leads',
-            'Coordinación operativa'
-          ]
-        },
-        {
-          num: '04',
-          title: 'Habilidades Técnicas y de Producto',
-          desc: 'Desarrollo en la interfaz de usuario (HTML5, CSS, React), Diseño de experiencia e interfaz de usuario (Figma, esquemas de página, flujos de usuario) y Gestión de datos (Excel avanzado / Google Sheets para métricas y control).'
-        },
-        {
-          num: '05',
-          title: 'Gestión y Desarrollo Comercial',
-          desc: 'Coordinación de punta a punta de proyectos, Control de calendarios (Tiempos de entrega), Prospección de empresa a empresa y Generación de contactos interesados, Armado y negociación de presupuestos.'
-        },
-        {
-          num: '06',
-          title: 'Habilidades Blandas',
-          desc: 'Comunicación activa, Autonomía para trabajo remoto, Orientación y vocación de servicio al cliente.'
-        }
-      ],
+      cards: [],
       timelineTitle: 'Trayectoria Académica',
       timeline: [
         { year: '2023', title: 'Curso de Excel', institution: 'Coderhouse', desc: 'Dominio de herramientas de análisis y gestión de datos.' },
@@ -128,10 +97,19 @@ export const translations = {
       home: 'Início',
       exp: 'Trajetória',
       projects: 'Projetos',
+      social: 'Social Media',
       skills: 'Habilidades',
       contact: 'Contato',
       cta: 'Vamos conversar',
       downloadCv: 'Baixar CV'
+    },
+    socialMedia: {
+      tag: 'Social Media',
+      title: 'Trabalhos no Instagram',
+      description: 'Veja alguns dos meus reels mais destacados diretamente no Instagram.',
+      reelLabel: 'Reel',
+      openDescription: 'Clique para ver o trabalho no Instagram.',
+      openButton: 'Ver no Instagram'
     },
     hero: {
       role: 'Técnica em Programação',
@@ -150,47 +128,7 @@ export const translations = {
       title3: 'e Integral',      sub: 'Coordenadora e Fundadora da Folkode. Impulsora de ambientes colaborativos onde a identidade, a tecnologia e a cultura convergem para criar soluções de alto valor.',
       desc1: 'Como líder integral da Folkode, gerencio os projetos e coordeno o desenvolvimento técnico. Projeto propostas comerciais personalizadas e lidero a estratégia digital e a moderação de conteúdos, garantindo que a identidade da marca permaneça coerente, segura e atraente em todos os seus canais.',
       desc2: 'Caracterizo-me por ser uma persona razoável e resolutiva, proativa e colaborativa. Abordo desafios complexos sob um prisma lógico e racional, garantindo soluções eficazes e escaláveis tanto na arquitetura de software quanto na gestão de comunidades digitais.',
-      cards: [
-        {
-          num: '01',
-          title: 'Gestão 360°',
-          desc: 'Marketing digital, moderação de conteúdo e posicionamento de marca.'
-        },
-        {
-          num: '02',
-          title: 'CM, CW & SMM',
-          items: [
-            'Redação de roteiros',
-            'Copywriter',
-            'Estratégia digital',
-            'Criadora de conteúdo'
-          ]
-        },
-        {
-          num: '03',
-          title: 'Gestão & MK',
-          items: [
-            'Gestão de clientes',
-            'Geração de leads',
-            'Coordenação operativa'
-          ]
-        },
-        {
-          num: '04',
-          title: 'Habilidades Técnicas e de Produto',
-          desc: 'Desenvolvimento na interface do usuário (HTML5, CSS, React), Design de experiência e interface do usuário (Figma, esquemas de página, fluxos de usuário) e Gestão de dados (Excel avançado / Google Sheets para métricas e controle).'
-        },
-        {
-          num: '05',
-          title: 'Gestão e Desenvolvimento Comercial',
-          desc: 'Coordenação de ponta a ponta de projetos, Controle de cronogramas (Prazos de entrega), Prospecção de empresa para empresa e Geração de contatos interessados, Elaboração e negociação de orçamentos.'
-        },
-        {
-          num: '06',
-          title: 'Habilidades Interpessoais (Soft Skills)',
-          desc: 'Comunicação ativa, Autonomia para trabalho remoto, Orientação e vocação de atendimento ao cliente.'
-        }
-      ],
+      cards: [],
       timelineTitle: 'Trajetória Acadêmica',
       timeline: [
         { year: '2023', title: 'Curso de Excel', institution: 'Coderhouse', desc: 'Domínio de ferramentas de análise e gestão de dados.' },

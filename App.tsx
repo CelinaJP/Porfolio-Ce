@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ExperienceSection from './components/FolkodeSection';
 import Projects from './components/Projects';
+import SocialMedia from './components/SocialMedia';
 import Skills from './components/Skills';
 import Certifications from './components/Certifications';
 import Footer from './components/Footer';
@@ -34,6 +35,7 @@ const App: React.FC = () => {
       <Hero lang={lang} />
       <ExperienceSection lang={lang} />
       <Projects lang={lang} />
+      <SocialMedia lang={lang} />
       <Certifications lang={lang} />
       <Skills lang={lang} />
       <Footer lang={lang} />

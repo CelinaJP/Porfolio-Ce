@@ -27,6 +27,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang, onToggleLang }) => {
     { name: t.home, href: '#home' },
     { name: t.exp, href: '#experience' },
     { name: t.projects, href: '#projects' },
+    { name: t.social, href: '#social' },
     { name: t.skills, href: '#skills' },
     { name: t.contact, href: '#contact' },
   ];
