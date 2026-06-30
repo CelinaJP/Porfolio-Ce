@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Globe } from 'lucide-react';
+import { Menu, X, Globe, Download } from 'lucide-react';
 import { translations } from '../translations';
 
 interface NavbarProps {
@@ -20,6 +20,8 @@ const Navbar: React.FC<NavbarProps> = ({ lang, onToggleLang }) => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const cvUrl = 'https://docs.google.com/document/d/135s7Qz4kcNfTKYNg1KfNKX0j3pqb-Ux20FG21KkgshQ/export?format=pdf';
 
   const navLinks = [
     { name: t.home, href: '#home' },
@@ -53,6 +55,17 @@ const Navbar: React.FC<NavbarProps> = ({ lang, onToggleLang }) => {
             </a>
           ))}
           
+          <a
+            href={cvUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+            className="flex items-center gap-2 px-4 py-2 border border-cool rounded-full text-[10px] font-bold uppercase tracking-widest hover:border-accent hover:text-white transition-colors"
+          >
+            <Download size={12} className="text-accent" />
+            <span>{t.downloadCv}</span>
+          </a>
+
           <button 
             onClick={onToggleLang}
             className="flex items-center gap-2 px-3 py-1.5 border border-cool rounded-full text-[10px] font-bold uppercase tracking-widest hover:border-accent transition-colors"
@@ -100,6 +113,18 @@ const Navbar: React.FC<NavbarProps> = ({ lang, onToggleLang }) => {
               {link.name}
             </a>
           ))}
+
+          <a
+            href={cvUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+            onClick={() => setIsMenuOpen(false)}
+            className="flex items-center justify-center gap-2 px-4 py-3 border border-accent rounded-full text-sm font-bold uppercase tracking-widest text-white hover:bg-accent transition-colors"
+          >
+            <Download size={16} className="text-accent" />
+            <span>{t.downloadCv}</span>
+          </a>
         </div>
       )}
     </nav>

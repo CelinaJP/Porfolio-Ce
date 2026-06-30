@@ -88,7 +88,15 @@ const ExperienceSection: React.FC<Props> = ({ lang }) => {
                   </div>
                   <div>
                     <h4 className="text-white font-bold uppercase tracking-wider text-base mb-1">{card.title}</h4>
-                    <p className="text-sm text-slate-400 leading-relaxed font-light">{card.desc}</p>
+                    {card.items ? (
+                      <ul className="text-sm text-slate-400 leading-relaxed font-light list-disc list-inside space-y-2">
+                        {card.items.map((item: string, idx: number) => (
+                          <li key={idx}>{item}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="text-sm text-slate-400 leading-relaxed font-light">{card.desc}</p>
+                    )}
                   </div>
                 </div>
               ))}

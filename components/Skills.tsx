@@ -13,6 +13,13 @@ const Skills: React.FC<Props> = ({ lang }) => {
 
   const skillSets = [
     {
+      title: categories[2],
+      icon: <Megaphone className="text-accent" size={32} />,
+      items: lang === 'es'
+        ? ['Redacción de guiones', 'Copywriter', 'Estrategia digital', 'Creadora de contenido']
+        : ['Redação de roteiros', 'Copywriter', 'Estratégia digital', 'Criadora de conteúdo']
+    },
+    {
       title: categories[0],
       icon: <Terminal className="text-accent" size={32} />,
       items: ['Python', 'API REST', 'PostgreSQL']
@@ -25,14 +32,14 @@ const Skills: React.FC<Props> = ({ lang }) => {
         : ['React', 'HTML5', 'CSS', 'Estrutura Web', 'Design Responsivo']
     },
     {
-      title: categories[2],
-      icon: <Megaphone className="text-accent" size={32} />,
+      title: categories[3],
+      icon: <Globe className="text-accent" size={32} />,
       items: lang === 'es'
-        ? ['Coordinación Operativa', 'Estrategia Digital', 'Generación de Leads', 'Gestión de Clientes', 'Redacción de texto', 'Copywriter']
-        : ['Coordenação Operativa', 'Estratégia Digital', 'Geração de Leads', 'Gestão de Clientes', 'Redação de texto', 'Copywriter']
+        ? ['Gestión de clientes', 'Generación de leads', 'Coordinación operativa']
+        : ['Gestão de clientes', 'Geração de leads', 'Coordenação operativa']
     },
     {
-      title: categories[3],
+      title: categories[4],
       icon: <Cpu className="text-accent" size={32} />,
       items: lang === 'es'
         ? ['Git / GitHub', 'Metodologías Ágiles', 'Diseño de Experiencia e Interfaz', 'Planificación de Arquitectura']
@@ -45,7 +52,7 @@ const Skills: React.FC<Props> = ({ lang }) => {
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="font-heading text-3xl sm:text-4xl md:text-6xl mb-20 text-center uppercase">{t.title1} <span className="text-slate-600">{t.title2}</span></h2>
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
           {skillSets.map((set, idx) => (
             <div key={idx} className="p-6 sm:p-8 bg-[#0a0a0c] border border-cool rounded-3xl hover:border-accent transition-all duration-500">
               <div className="mb-6">{set.icon}</div>

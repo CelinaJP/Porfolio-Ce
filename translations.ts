@@ -7,7 +7,8 @@ export const translations = {
       projects: 'Proyectos',
       skills: 'Habilidades',
       contact: 'Contacto',
-      cta: 'Hablemos'
+      cta: 'Hablemos',
+      downloadCv: 'Descargar CV'
     },
     hero: {
       role: 'Técnica en Programación',
@@ -36,21 +37,35 @@ export const translations = {
         },
         {
           num: '02',
-          title: 'Lógica Racional',
-          desc: 'Resolución de problemas técnicos y estratégicos mediante análisis riguroso.'
+          title: 'CM, CW & SMM',
+          items: [
+            'Redacción de guiones',
+            'Copywriter',
+            'Estrategia digital',
+            'Creadora de contenido'
+          ]
         },
         {
           num: '03',
+          title: 'Gestión & MK',
+          items: [
+            'Gestión de clientes',
+            'Generación de leads',
+            'Coordinación operativa'
+          ]
+        },
+        {
+          num: '04',
           title: 'Habilidades Técnicas y de Producto',
           desc: 'Desarrollo en la interfaz de usuario (HTML5, CSS, React), Diseño de experiencia e interfaz de usuario (Figma, esquemas de página, flujos de usuario) y Gestión de datos (Excel avanzado / Google Sheets para métricas y control).'
         },
         {
-          num: '04',
+          num: '05',
           title: 'Gestión y Desarrollo Comercial',
           desc: 'Coordinación de punta a punta de proyectos, Control de calendarios (Tiempos de entrega), Prospección de empresa a empresa y Generación de contactos interesados, Armado y negociación de presupuestos.'
         },
         {
-          num: '05',
+          num: '06',
           title: 'Habilidades Blandas',
           desc: 'Comunicación activa, Autonomía para trabajo remoto, Orientación y vocación de servicio al cliente.'
         }
@@ -97,7 +112,7 @@ export const translations = {
     skills: {
       title1: 'Habilidades',
       title2: 'Profesionales',
-      categories: ['Backend', 'Frontend', 'Gestión & MK', 'Software Dev']
+      categories: ['Backend', 'Frontend', 'CM, CW & SMM', 'Gestión & MK', 'Software Dev']
     },
     footer: {
       tag: '¿Tenés una idea?',
@@ -115,7 +130,8 @@ export const translations = {
       projects: 'Projetos',
       skills: 'Habilidades',
       contact: 'Contato',
-      cta: 'Vamos conversar'
+      cta: 'Vamos conversar',
+      downloadCv: 'Baixar CV'
     },
     hero: {
       role: 'Técnica em Programação',
@@ -142,21 +158,35 @@ export const translations = {
         },
         {
           num: '02',
-          title: 'Lógica Racional',
-          desc: 'Resolução de problemas técnicos e estratégicos através de análise rigorosa.'
+          title: 'CM, CW & SMM',
+          items: [
+            'Redação de roteiros',
+            'Copywriter',
+            'Estratégia digital',
+            'Criadora de conteúdo'
+          ]
         },
         {
           num: '03',
+          title: 'Gestão & MK',
+          items: [
+            'Gestão de clientes',
+            'Geração de leads',
+            'Coordenação operativa'
+          ]
+        },
+        {
+          num: '04',
           title: 'Habilidades Técnicas e de Produto',
           desc: 'Desenvolvimento na interface do usuário (HTML5, CSS, React), Design de experiência e interface do usuário (Figma, esquemas de página, fluxos de usuário) e Gestão de dados (Excel avançado / Google Sheets para métricas e controle).'
         },
         {
-          num: '04',
+          num: '05',
           title: 'Gestão e Desenvolvimento Comercial',
           desc: 'Coordenação de ponta a ponta de projetos, Controle de cronogramas (Prazos de entrega), Prospecção de empresa para empresa e Geração de contatos interessados, Elaboração e negociação de orçamentos.'
         },
         {
-          num: '05',
+          num: '06',
           title: 'Habilidades Interpessoais (Soft Skills)',
           desc: 'Comunicação ativa, Autonomia para trabalho remoto, Orientação e vocação de atendimento ao cliente.'
         }
@@ -202,7 +232,7 @@ export const translations = {
     skills: {
       title1: 'Habilidades',
       title2: 'Profissionais',
-      categories: ['Backend', 'Frontend', 'Gestão & MK', 'Software Dev']
+      categories: ['Backend', 'Frontend', 'CM, CW & SMM', 'Gestão & MK', 'Software Dev']
     },
     footer: {
       tag: 'Tem uma ideia?',
