@@ -133,7 +133,8 @@ export const translations = {
       timeline: [
         { year: '2023', title: 'Curso de Excel', institution: 'Coderhouse', desc: 'Domínio de ferramentas de análise e gestão de dados.' },
         { year: '2024', title: 'Técnica em Programação', institution: 'UNaB', desc: 'Formação superior em lógica, algoritmos e desenvolvimento de sistemas.' },
-        { year: '2025', title: 'Especialização Front-End & Python', institution: 'Agencia de Habilidades', desc: 'Aprofundamento em tecnologias modernas e desenvolvimento backend.' }
+        { year: '2025', title: 'Especialização Front-End & Python', institution: 'Agencia de Habilidades', desc: 'Aprofundamento em tecnologias modernas e desenvolvimento backend.' },
+        { year: '2026', title: 'Community Manager', institution: 'Mujeres Emprendedoras', desc: 'Especialização em gestão e desenvolvimento de comunidades digitais.' }
       ]
     },
     projects: {

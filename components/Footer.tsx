@@ -33,8 +33,8 @@ const Footer: React.FC<Props> = ({ lang }) => {
                 <a href="https://www.linkedin.com/in/celina-pereyra/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between text-3xl font-heading group uppercase hover:text-accent transition-colors">
                   LinkedIn <Linkedin className="group-hover:translate-x-1 transition-transform opacity-30 group-hover:opacity-100" size={32} />
                 </a>
-                <a href="https://github.com/CelinaJP" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between text-3xl font-heading group uppercase hover:text-accent transition-colors">
-                  GitHub <Github className="group-hover:translate-x-1 transition-transform opacity-30 group-hover:opacity-100" size={32} />
+                <a href="https://github.com/CelinaJP" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between text-3xl font-heading group uppercase text-white transition-colors hover:text-slate-400">
+                  GitHub <Github className="group-hover:translate-x-1 transition-transform opacity-30 group-hover:opacity-100 group-hover:text-slate-400" size={32} />
                 </a>
                 <a 
                   href="https://www.instagram.com/cancherea/" 
@@ -69,7 +69,7 @@ const Footer: React.FC<Props> = ({ lang }) => {
 
         <div className="mt-40 pt-10 border-t border-cool flex flex-col md:flex-row justify-between items-center gap-8 text-[10px] font-bold uppercase tracking-[0.3em] text-slate-600">
           <div className="flex flex-col md:flex-row gap-8 items-center">
-             <p>© 2024 CELINA J. PEREYRA</p>
+             <p>© CELINA J. PEREYRA</p>
              <div className="hidden md:block w-1 h-1 bg-slate-800 rounded-full"></div>
                <a 
                href="https://www.folkode.com.ar/" 

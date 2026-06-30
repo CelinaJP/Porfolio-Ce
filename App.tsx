@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 
 const App: React.FC = () => {
   const [lang, setLang] = useState<'es' | 'pt'>('es');
+  const [activeTab, setActiveTab] = useState<'experience' | 'certifications'>('experience');
 
   const toggleLang = () => setLang(prev => prev === 'es' ? 'pt' : 'es');
 
@@ -33,10 +34,31 @@ const App: React.FC = () => {
 
       <Navbar lang={lang} onToggleLang={toggleLang} />
       <Hero lang={lang} />
-      <ExperienceSection lang={lang} />
+      <div className="max-w-7xl mx-auto px-6 py-16">
+        <div className="flex flex-col sm:flex-row items-start gap-4 mb-10">
+          <button
+            type="button"
+            onClick={() => setActiveTab('experience')}
+            className={`px-6 py-3 rounded-full uppercase tracking-[0.3em] text-sm font-bold transition ${activeTab === 'experience' ? 'bg-accent text-black' : 'bg-white/5 text-white hover:bg-white/10'}`}
+          >
+            {lang === 'es' ? 'Trayectoria' : 'Trajetória'}
+          </button>
+          <button
+            type="button"
+            onClick={() => setActiveTab('certifications')}
+            className={`px-6 py-3 rounded-full uppercase tracking-[0.3em] text-sm font-bold transition ${activeTab === 'certifications' ? 'bg-accent text-black' : 'bg-white/5 text-white hover:bg-white/10'}`}
+          >
+            {lang === 'es' ? 'Certificaciones' : 'Certificações'}
+          </button>
+        </div>
+
+        {activeTab === 'experience' ? (
+          <ExperienceSection lang={lang} />
+        ) : (
+          <Certifications lang={lang} />
+        )}
+      </div>
       <Projects lang={lang} />
-      <SocialMedia lang={lang} />
-      <Certifications lang={lang} />
       <Skills lang={lang} />
       <Footer lang={lang} />
     </main>
